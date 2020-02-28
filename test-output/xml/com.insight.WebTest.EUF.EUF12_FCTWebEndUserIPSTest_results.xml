@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WebApplication"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="97.028">
+  <properties />
+  
+  
+            <testcase name="TC_EUF12" time="97.028" classname="com.insight.WebTest.EUF.EUF12_FCTWebEndUserIPSTest" />
+      
+</testsuite>

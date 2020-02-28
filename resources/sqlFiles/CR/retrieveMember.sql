@@ -1,0 +1,1 @@
+select MBR_ID_16 from tokyo_inq.MEMBERX where mbr_id = '13011601'

@@ -1,0 +1,437 @@
+<html>
+    <head>
+            <meta name="" content="">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"> </script> 
+    </head>
+    <body onload="loadXMLDoc()">
+    <!-- Logo Section -->
+        
+        <div class="container">
+          <div class="row">
+             <div class="column">
+               <div style="padding-left:15px;padding-top: 5px; padding-bottom: 5px;">
+                <a href="https://www.insight.com/en_US/home.html">
+               <img src="./Logos/CSDLogo.png" alt="Insight">
+              </a>
+               </div>
+            </div>
+            <div class="column">
+              <div style="padding-left:744px;padding-top: 5px; padding-bottom: 5px;">
+                <a href="https://www.cigniti.com/">
+              <img src="./Logos/logo.png" alt="Cigniti">
+            </a>
+              </div>
+            </div>
+        </div>
+        </div>
+     <!-- Summary Section -->
+    
+     <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+              myFunction(this);
+          }
+      };
+      xhttp.open("GET", "SummaryResults.xml", true);
+      xhttp.send();
+      
+      function myFunction(xml) {
+          var xmlDoc = xml.responseXML;
+          document.getElementById("Instance").innerHTML =xmlDoc.getElementsByTagName("SuiteExecuted")[0].childNodes[0].nodeValue;
+          document.getElementById("App").innerHTML =xmlDoc.getElementsByTagName("Environment")[0].childNodes[0].nodeValue;
+          document.getElementById("StartTime").innerHTML =xmlDoc.getElementsByTagName("DateTime")[0].childNodes[0].nodeValue;
+          document.getElementById("EndTime").innerHTML =xmlDoc.getElementsByTagName("SuiteExecutionTime")[0].childNodes[0].nodeValue;
+          document.getElementById("Browser").innerHTML =xmlDoc.getElementsByTagName("Browser")[0].childNodes[0].nodeValue;
+          document.getElementById("Version").innerHTML =xmlDoc.getElementsByTagName("Version")[0].childNodes[0].nodeValue;
+          document.getElementById("OS").innerHTML =xmlDoc.getElementsByTagName("OS")[0].childNodes[0].nodeValue;
+          document.getElementById("Host").innerHTML =xmlDoc.getElementsByTagName("HostName")[0].childNodes[0].nodeValue;
+          var PassTestCount = xmlDoc.getElementsByTagName("PassTestCases")[0].childNodes[0].nodeValue;
+          var FailTestCount = xmlDoc.getElementsByTagName("FailTestCases")[0].childNodes[0].nodeValue;
+          var TotalCount = Number(PassTestCount) + Number(FailTestCount);
+          document.getElementById("Executed").innerHTML =TotalCount;
+          document.getElementById("Failures").innerHTML =xmlDoc.getElementsByTagName("FailTestCases")[0].childNodes[0].nodeValue;
+          var PassPer = ((PassTestCount*100)/TotalCount).toFixed(2);
+          document.getElementById("PassPer").innerHTML =PassPer;
+      }
+      </script>
+      <div class="container">
+          <div id="rcorners2" class="panel panel-primary text-white" style="background-color: #376196;">
+            
+              <div class="panel-body">
+                  <div class="row">
+                      <div  class="col-sm-3">Instance:<p id="Instance"></p></div>
+                      <div  class="col-sm-3">Application:<p id="App"></p></div>
+                      <div  class="col-sm-3">Date:<p id="StartTime"></p></div>
+                      <div  class="col-sm-3">SuiteExecutionTime:<p id="EndTime"></p></div>
+                    </div>
+                    <div class="row">
+                        <div  class="col-sm-3">Browser:<p id="Browser"></p></div>
+                        <div  class="col-sm-3">Browser Version:<p id="Version"></p></div>
+                        <div  class="col-sm-3">Operating System:<p id="OS"></p></div>
+                        <div  class="col-sm-3">HostName:<p id="Host"></p></div>
+                      </div>
+              </div>
+            </div>
+            <br>
+              <nav class="navbar navbar-expand-sm bg-light" >
+                      <ul class="navbar-nav" style="color: #376196;">
+                        <li class="nav-item ">
+                          <h5>Quick View</h5>
+                        </li>
+                      </ul>
+                    </nav>
+              <div  class="jumbotron"  style="background-color: #E8E8E8;">
+                      <div class="row">
+                  <div class="col-lg-4" style="background-color: white;">
+                    <canvas id="myChart" width="600" height="400"></canvas>
+                  </div>
+                  <div class="col-lg-4" style="background-color: white;">
+                          <canvas id="myLineChart" width="600" height="400"></canvas>
+                  </div>
+                  <div id="collapse" style="margin-left: 10%;">
+                          
+                          <d style="font-weight: bold" data-toggle="modal" data-target="#TodayTestCases"><a id="Executed"></a></d>
+                          <br>
+                          <c>Tests Executed Today</c>
+                          <br>
+                          <br>
+                          <d style="font-weight: bold"><a id="Failures" ></a></d>
+                          <br>
+                          <c>Failures</c>
+                          <br>
+                          <br>
+                          <div class="progress">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%; background-color: green;">
+                               
+                                <div style="margin-left: 20%;" class="row">
+                                <b id="PassPer"></b>
+                                <b id="">%</b>
+                                </div>
+                              </div>
+                            </div>
+                            <c>Pass Percentage</c>
+                  </div>
+              </div>
+              </div>
+              
+      </div>
+<div class="container">
+  <!-- Total Test Cases Modal -->
+
+<!-- Test Executed Today -->
+
+
+</div>
+<div class="container">
+        <div class="text-white">  
+            <div id="ResultsGridCorner" class="card text-white" style="background-color: #376196;">
+              <div id="ResultsCorner">
+                  <div class="row">
+                    <h5>Test Summary Results</h5>
+                    <input id="myInput" style="margin-left: 50%;width: 20%;" type="text" placeholder="Test Case Search">
+                   <br>
+                 
+                    <select id="FilterId">
+                        <option value="FR">Select Option</option>
+                        <option value="Pass">Pass</option>
+                        <option value="Fail">Fail</option>
+                      </select>    
+                  </div>
+                  </div>
+              </div>
+            <table id="demo" class="table table-bordered" style="text-align: center;"></table>
+
+            
+              </div>
+</div>
+
+
+<!-- Modal -->
+<div class="container">
+<div class="modal fade" id="myModal" style="max-height:85%" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content" >
+        <div class="modal-header">
+          <h4 class="modal-title">Test Case Detail report</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="text-white">  
+                  
+                    <table id="detail" class="table table-bordered"></table>
+            
+                    
+                      </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+    </body>
+</html>
+<script type="text/javascript"> 
+
+//  myChart.datasets[0].bars[1].value = 50;
+// myChart.update();
+    var Status = [15,15,12];
+    var ctx = document.getElementById("myChart"); 
+    var myChart = new Chart(ctx, { 
+    type: 'doughnut', 
+    data: { 
+        labels: ["Pass", "Fail","Skip"], 
+        datasets: [ 
+        { 
+            data: Status, 
+            backgroundColor :[ '#097746',
+        '#FF4A4F',
+        '#F7CE5B' 
+    ], 
+    
+   
+    borderWidth : 1 
+        } 
+        ] 
+    }, 
+    options: {
+      centerText: {
+        display: true,
+        text: "280"
+    },
+        title: {
+            display: true,
+            text: 'Test Report Distribution'
+        }
+    }
+    
+    }); 
+
+        </script> 
+
+<script type="text/javascript"> 
+    var Time = [0,20];
+    var ctx = document.getElementById("myLineChart"); 
+    var myLineChart = new Chart(ctx, { 
+    type: 'line', 
+    data: { 
+        labels: ["","Actual Risk %"], 
+        datasets: [ 
+        { 
+            data: Time, 
+            backgroundColor :[  'rgb(255,0,0,0.75)'
+    ], 
+    
+   
+    borderWidth : 1 
+        } 
+        ] 
+    }, 
+    options: {
+        title: {
+            display: true,
+            text: 'Test Case Risk Factor %'
+        },
+        scales: {
+        yAxes: [{
+           
+            ticks: {
+                max: 100,
+                min: 0,
+               
+            }
+        }]
+    },
+    legend: {
+        display: false
+    },
+    }
+    
+    }); 
+    
+        </script> 
+    
+<style>
+    b{
+       
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    p{
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+    }
+    .my-primary, .my-primary:hover{
+  background-color: #376196;
+
+
+
+}
+.modal-content {
+    width: 150%;
+   
+}
+.modal-lg {
+ 
+  margin: auto;
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 100%;
+  height: 150px;  
+}
+
+#ResultsGridCorner {
+  border-radius: 5px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 100%;
+  height: 70px;  
+}
+#ResultsCorner {
+  border-radius: 5px;
+}
+</style>
+<script type="text/javascript">
+    function loadXMLDoc() {
+       
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "SummaryResults.xml", true);
+      xmlhttp.setRequestHeader('Content-Type', 'application/xml');
+      xmlhttp.send();
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table = "<table>"
+      table +="<th>SerialNo</th><th>TestCase Name</th><th>Description</th><th>Pass Count</th><th>Fail Count</th><th>Duration</th><th>Status</th>";
+      var x = xmlDoc.getElementsByTagName("TestDetails");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("SerialNo")[0].childNodes[0].nodeValue +
+        "<\/td><td><a href=\"javascript:call_func('"+ x[i].getElementsByTagName("TestCase")[0].childNodes[0].nodeValue +"');\">" +
+        x[i].getElementsByTagName("TestCase")[0].childNodes[0].nodeValue +
+        "</a></td><td>" +
+        x[i].getElementsByTagName("Description")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("PassCount")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("FailCount")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("Time")[0].childNodes[0].nodeValue +
+        "</td><td class='y_n'>" +
+        x[i].getElementsByTagName("Status")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      var Passcount = xmlDoc.getElementsByTagName("PassTestCases")[0].childNodes[0].nodeValue;
+      var FailCount = xmlDoc.getElementsByTagName("FailTestCases")[0].childNodes[0].nodeValue;
+      var total = Number(Passcount)+Number(FailCount);
+      var PassPer = ((Passcount*100)/total).toFixed(2);
+      var riskper = Number(100) - Number(PassPer);
+      myChart.data.datasets[0].data[0] = Passcount;
+      myChart.data.datasets[0].data[1] = FailCount;
+      myChart.data.datasets[0].data[2] = 0;
+      myChart.update();
+      
+      document.getElementById("demo").innerHTML = table;
+
+      myLineChart.data.datasets[0].data[0] = 0;
+      myLineChart.data.datasets[0].data[1] = riskper;
+      myLineChart.update();
+    }
+    }
+    </script>
+    <script type="text/javascript">
+     function loadXMLDoc1(testCaseName) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+	  var testdetail = testCaseName+".xml";
+      xmlhttp.open("GET", testdetail, true); 
+      xmlhttp.setRequestHeader('Content-Type', 'application/xml');
+      xmlhttp.send();
+      function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table = "<table>"
+      table +="<tr><th>SerialNo</th><th>TestCase Name</th><th>Description</th><th>Status</th><th>Execution Time</th></tr>";
+      var x = xmlDoc.getElementsByTagName(testCaseName);
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("SerialNo")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("StepName")[0].childNodes[0].nodeValue +
+        "</a></td><td>"+
+          x[i].getElementsByTagName("StepDescription")[0].childNodes[0].nodeValue +
+        "</a></td><td>"+
+          x[i].getElementsByTagName("Status")[0].childNodes[0].nodeValue +
+        "</a></td><td>"+
+        x[i].getElementsByTagName("ExecutionTime")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("detail").innerHTML = table;
+    }
+    $('#myModal').modal('show');
+    }
+    
+    function call_func(testCaseName) {
+      loadXMLDoc1(testCaseName);
+     }
+    </script>
+    <script>
+      // Grid Filter
+      $(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#demo tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+//filter
+$(document).ready(function(){
+  $("#FilterId").change(function() {
+    var value = $(this).val().toLowerCase();
+    $("#demo tr").filter(function() {
+      if(value!=null)
+      {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      }
+      else if(value=="FR"){
+        $(this).toggle($(this).text().toLowerCase().indexOf("*a*") > -1)
+      }
+    });
+  });
+});
+
+
+//Pass Percentage
+/* sCount = testResults.Count;
+            pCount = testResults.FindAll(x => x.IsPass == true).Count;
+            fCount = sCount - pCount;
+            float PassPercentage = ((pCount * 100) / sCount); */
+    </script>

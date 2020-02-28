@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WebApplication"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="29.666">
+  <properties />
+  
+  
+            <testcase name="TC_LNL01" time="29.666" classname="com.insight.WebTest.LNL.LNL01_InactiveSTTest" />
+      
+</testsuite>

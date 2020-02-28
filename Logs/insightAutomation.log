@@ -1,0 +1,291 @@
+2020-01-21 17:55:06,422  INFO (main:com.insight.accelerators.TestEngineWeb:beforeSuite:154) - Suite time ==============>21_Jan_2020_05_55_06_422
+2020-01-21 17:55:06,430  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,430  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = insightWebURL
+2020-01-21 17:55:06,431  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:170) - ---------------------
+2020-01-21 17:55:06,431  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:171) - -----Before Class----
+2020-01-21 17:55:06,431  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:172) - ---------------------
+2020-01-21 17:55:06,431  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:173) - Execution Start Time :: 1579609506384
+2020-01-21 17:55:06,431  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:174) - browser name :: chrome Browser version :: 76.0 platform ::windows 10
+2020-01-21 17:55:06,451  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,451  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = clientName
+2020-01-21 17:55:06,452  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,453  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = deviceName
+2020-01-21 17:55:06,453  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,453  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = iterationMode
+2020-01-21 17:55:06,454  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,454  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = suiteName
+2020-01-21 17:55:06,455  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,456  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = onErrorAction
+2020-01-21 17:55:06,456  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,456  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = singleThreadExecution
+2020-01-21 17:55:06,457  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,457  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = AUT
+2020-01-21 17:55:06,457  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,457  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = baseUrl
+2020-01-21 17:55:06,458  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,458  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = showroomUrl
+2020-01-21 17:55:06,458  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,458  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = Waittime
+2020-01-21 17:55:06,459  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,459  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = DynamicWait
+2020-01-21 17:55:06,459  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,459  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = MinWait
+2020-01-21 17:55:06,460  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,460  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = insightWebUrl
+2020-01-21 17:55:06,460  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,460  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = cmtUserName
+2020-01-21 17:55:06,461  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,461  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = cmtPassWord
+2020-01-21 17:55:06,461  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,461  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = emailID
+2020-01-21 17:55:06,462  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,462  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = browserName
+2020-01-21 17:55:06,462  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,462  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = version
+2020-01-21 17:55:06,463  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,463  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = platform
+2020-01-21 17:55:06,464  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,464  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = reportFormat
+2020-01-21 17:55:06,464  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,464  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationResult
+2020-01-21 17:55:06,465  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,465  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = folderScreenShot
+2020-01-21 17:55:06,465  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,466  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationClientLogo
+2020-01-21 17:55:06,466  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,466  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationMobileLogo
+2020-01-21 17:55:06,467  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,467  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = showroomClientLogo
+2020-01-21 17:55:06,467  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,467  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationCompanyLogo
+2020-01-21 17:55:06,468  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,468  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationFailedLogo
+2020-01-21 17:55:06,468  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,468  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationMinusLogo
+2020-01-21 17:55:06,469  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,469  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationPassedLogo
+2020-01-21 17:55:06,469  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,470  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationPlusLogo
+2020-01-21 17:55:06,470  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,470  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationWarningLogo
+2020-01-21 17:55:06,470  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,471  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = onSuccessScreenshot
+2020-01-21 17:55:06,471  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,471  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = userName
+2020-01-21 17:55:06,472  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,472  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = accessKey
+2020-01-21 17:55:06,472  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,473  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = cloudImplicitWait
+2020-01-21 17:55:06,473  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,474  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = cloudPageLoadTimeOut
+2020-01-21 17:55:06,474  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,474  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationCssFolder
+2020-01-21 17:55:06,475  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,475  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationJsFolder
+2020-01-21 17:55:06,475  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,475  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = locationImagesFolder
+2020-01-21 17:55:06,476  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,476  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = callReceivingURL
+2020-01-21 17:55:06,476  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,476  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = dispatchURL
+2020-01-21 17:55:06,477  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,477  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = RSOWebURL
+2020-01-21 17:55:06,477  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,478  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = RSOWebURLMestag
+2020-01-21 17:55:06,478  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,478  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = Carving
+2020-01-21 17:55:06,478  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,479  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = ServiceTracker
+2020-01-21 17:55:06,479  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:55:06,479  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = ServiceTrackerQuickLaunch
+2020-01-21 17:55:06,479  INFO (main:com.insight.accelerators.TestEngineWeb:beforeClass:195) - local
+2020-01-21 17:55:06,484  INFO (main:com.insight.report.BrowserContext:getBrowserContext:153) - New BrowserContext Instance Was Created And Placed In Map : BrowserContext.mapBrowserContext
+2020-01-21 17:55:06,484  INFO (main:com.insight.report.BrowserContext:toString:141) - <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,484  INFO (main:com.insight.report.BrowserContext:getBrowserContext:159) - BrowserContext Info Being returned: <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,485  INFO (main:com.insight.report.BrowserContext:toString:141) - <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,485  INFO (main:com.insight.report.BrowserContext:getBrowserContext:159) - BrowserContext Info Being returned: <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,510  INFO (main:com.insight.report.CReporterWeb:filePath:158) - resultDir = results\CHROME-windows 10-local_2020-01-21_17_55_06_510
+2020-01-21 17:55:06,511  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/insight.JPG
+2020-01-21 17:55:06,542  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\insight.JPGcopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,543  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/cigniti_logo.png
+2020-01-21 17:55:06,549  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\cigniti_logo.pngcopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,549  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/failed.ico
+2020-01-21 17:55:06,558  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\failed.icocopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,559  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/Minus.ico
+2020-01-21 17:55:06,571  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\Minus.icocopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,571  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/passed.ico
+2020-01-21 17:55:06,580  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\passed.icocopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,580  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/Plus.ico
+2020-01-21 17:55:06,597  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\Plus.icocopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,597  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/warning.ico
+2020-01-21 17:55:06,610  INFO (main:com.insight.report.CReporterWeb:copyLogos:231) - logos\warning.icocopied to results\CHROME-windows 10-local_2020-01-21_17_55_06_510\screenshots
+2020-01-21 17:55:06,610  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/css
+2020-01-21 17:55:06,650  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/images
+2020-01-21 17:55:06,677  INFO (main:com.insight.report.CReporterWeb:copyLogos:212) - Current Logo Name : logos/js
+2020-01-21 17:55:06,737  INFO (main:com.insight.report.CReporterWeb:<init>:65) - instance member browserContext was set to : 
+2020-01-21 17:55:06,738  INFO (main:com.insight.report.BrowserContext:<init>:66) - <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,737  INFO (main:com.insight.report.CReporterWeb:<init>:66) - <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,738  INFO (main:com.insight.report.CReporterWeb:getCReporter:89) - Instance Of CReporter Created
+2020-01-21 17:55:06,738  INFO (main:com.insight.report.CReporterWeb:getCReporter:91) - reporter was placed into CReporter.mapBrowserContextReporter
+2020-01-21 17:55:06,754  INFO (main:com.insight.report.BrowserContext:toString:141) - <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,754  INFO (main:com.insight.report.ReportXML:setBrowserContext:70) - browserContext set to : <BrowserContext><Name> chrome</Name><Version> windows 10</Version><Platform>local</Platform></BrowserContext>
+2020-01-21 17:55:06,754  INFO (main:com.insight.report.ReportXML:createDirectoryForReports:170) - resultDir = results\REPORT_XML_chrome-2020-01-21
+2020-01-21 17:55:06,755  INFO (main:com.insight.report.ReportXML:createDirectoryForReports:186) - inside screenshot dir exists
+2020-01-21 17:55:06,800  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/insight.JPG
+2020-01-21 17:55:06,802  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\insight.JPGcopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,802  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/cigniti_logo.png
+2020-01-21 17:55:06,805  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\cigniti_logo.pngcopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,805  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/failed.ico
+2020-01-21 17:55:06,807  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\failed.icocopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,807  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/Minus.ico
+2020-01-21 17:55:06,809  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\Minus.icocopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,809  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/passed.ico
+2020-01-21 17:55:06,811  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\passed.icocopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,812  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/Plus.ico
+2020-01-21 17:55:06,814  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\Plus.icocopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,814  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/warning.ico
+2020-01-21 17:55:06,816  INFO (main:com.insight.report.ReportXML:copyLogos:134) - logos\warning.icocopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,816  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/css
+2020-01-21 17:55:06,822  INFO (main:com.insight.report.ReportXML:copyLogos:122) - logos\csscopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,823  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/images
+2020-01-21 17:55:06,833  INFO (main:com.insight.report.ReportXML:copyLogos:122) - logos\imagescopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,833  INFO (main:com.insight.report.ReportXML:copyLogos:116) - Current logo : logos/js
+2020-01-21 17:55:06,845  INFO (main:com.insight.report.ReportXML:copyLogos:122) - logos\jscopied to results\REPORT_XML_chrome-2020-01-21\HTMLReports\screenshots
+2020-01-21 17:55:06,846  INFO (main:com.insight.report.ReportXML:checkTestCaseXML:332) - tcName : TEJA_TEST
+2020-01-21 17:55:06,851  INFO (main:com.insight.accelerators.TestEngineWeb:fnOpenTest:307) - Selenium  URLlocal
+2020-01-21 17:55:13,496  INFO (main:com.insight.accelerators.TestEngineWeb:setWebDriverForLocal:482) - Driver launch ::chrome
+2020-01-21 17:55:29,006  INFO (main:com.insight.accelerators.TestEngineWeb:getTotalRow:327) - ******getData*******: Insurance_test
+2020-01-21 17:55:29,011  INFO (main:com.insight.accelerators.TestEngineWeb:getTotalRow:344) - Test Starts from row -> 1
+2020-01-21 17:55:29,012  INFO (main:com.insight.accelerators.TestEngineWeb:getTotalRow:353) - Total cols in test -> 1
+2020-01-21 17:55:29,012  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:254) - ******getData*******: Insurance_test
+2020-01-21 17:55:29,012  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:272) - Test Starts from row -> 1
+2020-01-21 17:55:29,012  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:281) - Total cols in test -> 1
+2020-01-21 17:55:29,012  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:292) - Total rows in test -> 3
+2020-01-21 17:55:29,014  INFO (main:com.insight.accelerators.ActionEngine:type:888) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:29,014  INFO (main:com.insight.accelerators.ActionEngine:type:889) - Class name : com.insight.WebTest.SEWP.TejaTestMethod name : TEJA_TEST
+2020-01-21 17:55:29,014  INFO (main:com.insight.accelerators.ActionEngine:type:890) - Method : Type  ::  Locator : register number :: Data :TS09EU5656
+2020-01-21 17:55:29,019  INFO (main:com.insight.accelerators.ActionEngine:type:892) - Waiting for element :
+2020-01-21 17:55:29,106  INFO (main:com.insight.accelerators.ActionEngine:type:894) - Locator is Visible :: By.xpath: //input[@id='ctl00_OnlineContent_txtRegnNo']
+2020-01-21 17:55:29,151  INFO (main:com.insight.accelerators.ActionEngine:type:899) - Cleared the existing Locator data : 
+2020-01-21 17:55:29,202  INFO (main:com.insight.accelerators.ActionEngine:type:902) - Typed the Locator data :: TS09EU5656
+2020-01-21 17:55:29,202  INFO (main:com.insight.accelerators.ActionEngine:type:903) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:29,202  INFO (main:com.insight.accelerators.ActionEngine:type:915) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:29,203  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Successfully Entered value 
+2020-01-21 17:55:29,209  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:55:29,257  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:55:29,257  INFO (main:com.insight.accelerators.ActionEngine:click:636) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:29,257  INFO (main:com.insight.accelerators.ActionEngine:click:637) - Class namecom.insight.WebTest.SEWP.TejaTestMethod name : TEJA_TEST
+2020-01-21 17:55:29,257  INFO (main:com.insight.accelerators.ActionEngine:click:638) - Method : click  ::  Locator : get details sbutton
+2020-01-21 17:55:29,257  INFO (main:com.insight.accelerators.ActionEngine:click:641) - Waiting for element
+2020-01-21 17:55:29,294  INFO (main:com.insight.accelerators.ActionEngine:click:643) - Locator is Visible :: By.xpath: //input[@id='ctl00_OnlineContent_BtnGetDetails']
+2020-01-21 17:55:29,331  INFO (main:com.insight.accelerators.ActionEngine:click:645) - Clicked on the Locator
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:click:647) - identified the element :: By.xpath: //input[@id='ctl00_OnlineContent_BtnGetDetails']
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:click:648) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:getText:1170) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:getText:1171) - Class namecom.insight.WebTest.SEWP.TejaTestMethod name : TEJA_TEST
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:waitTime:867) - Time out value is : 2
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:isVisibleOnly:2504) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:isVisibleOnly:2505) - Class name :: com.insight.accelerators.ActionEngine Method name :: getText
+2020-01-21 17:55:30,831  INFO (main:com.insight.accelerators.ActionEngine:isVisibleOnly:2506) - Method : getText  ::  Locator : Insurance valid upto
+2020-01-21 17:55:30,907  INFO (main:com.insight.accelerators.ActionEngine:isVisibleOnly:2512) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:30,942  INFO (main:com.insight.accelerators.ActionEngine:getText:1177) - Locator is Visible and text is retrieved :: 30/12/2017
+2020-01-21 17:55:30,943  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Insurance valid upto is :30/12/2017
+2020-01-21 17:55:30,944  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:55:30,955  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:55:30,955  INFO (main:com.insight.accelerators.ActionEngine:getText:1188) - Locator is Visible and text is retrieved :: 30/12/2017
+2020-01-21 17:55:30,956  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Valid date
+2020-01-21 17:55:30,957  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:55:30,961  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:55:31,368  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Execution Failed...!null
+2020-01-21 17:55:31,406  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:55:31,409  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:55:33,184  INFO (main:com.insight.accelerators.TestEngineWeb:fnCloseTest:345) - Driver quit ::chrome
+2020-01-21 17:55:33,185  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : ************ END OF THE TEST ********************
+2020-01-21 17:55:33,187  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:55:33,190  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:55:33,190  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:254) - ******getData*******: Insurance_test
+2020-01-21 17:55:33,190  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:272) - Test Starts from row -> 1
+2020-01-21 17:55:33,190  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:281) - Total cols in test -> 1
+2020-01-21 17:55:33,191  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:292) - Total rows in test -> 3
+2020-01-21 17:55:33,191  INFO (main:com.insight.accelerators.ActionEngine:type:888) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:55:33,191  INFO (main:com.insight.accelerators.ActionEngine:type:889) - Class name : com.insight.WebTest.SEWP.TejaTestMethod name : TEJA_TEST
+2020-01-21 17:55:33,191  INFO (main:com.insight.accelerators.ActionEngine:type:890) - Method : Type  ::  Locator : register number :: Data :TS02EU4141
+2020-01-21 17:55:33,191  INFO (main:com.insight.accelerators.ActionEngine:type:892) - Waiting for element :
+2020-01-21 17:56:03,298  INFO (main:com.insight.accelerators.ActionEngine:type:907) - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //input[@id='ctl00_OnlineContent_txtRegnNo']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'CTLINDT-2226', ip: '172.21.68.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+2020-01-21 17:56:03,298  INFO (main:com.insight.accelerators.ActionEngine:type:911) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:56:03,305  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Execution Failed...!Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'CTLINDT-2226', ip: '172.21.68.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: EventFiringWebDriver
+2020-01-21 17:56:03,306  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:56:03,311  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:56:03,311  INFO (main:com.insight.accelerators.TestEngineWeb:fnCloseTest:345) - Driver quit ::chrome
+2020-01-21 17:56:03,312  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : ************ END OF THE TEST ********************
+2020-01-21 17:56:03,313  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:56:03,316  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:254) - ******getData*******: Insurance_test
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:272) - Test Starts from row -> 1
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:281) - Total cols in test -> 1
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.TestEngineWeb:getDataByRowNo:292) - Total rows in test -> 3
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.ActionEngine:type:888) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.ActionEngine:type:889) - Class name : com.insight.WebTest.SEWP.TejaTestMethod name : TEJA_TEST
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.ActionEngine:type:890) - Method : Type  ::  Locator : register number :: Data :TS13EG3877
+2020-01-21 17:56:03,316  INFO (main:com.insight.accelerators.ActionEngine:type:892) - Waiting for element :
+2020-01-21 17:56:33,365  INFO (main:com.insight.accelerators.ActionEngine:type:907) - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //input[@id='ctl00_OnlineContent_txtRegnNo']
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'CTLINDT-2226', ip: '172.21.68.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+2020-01-21 17:56:33,365  INFO (main:com.insight.accelerators.ActionEngine:type:911) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2020-01-21 17:56:33,369  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : Execution Failed...!Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'CTLINDT-2226', ip: '172.21.68.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: EventFiringWebDriver
+2020-01-21 17:56:33,371  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:56:33,375  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:56:33,375  INFO (main:com.insight.accelerators.TestEngineWeb:fnCloseTest:345) - Driver quit ::chrome
+2020-01-21 17:56:33,376  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:493) - step description : ************ END OF THE TEST ********************
+2020-01-21 17:56:33,377  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:537) - Test method name : TEJA_TEST
+2020-01-21 17:56:33,615  INFO (main:com.insight.report.ReportXML:captureTestStepDetails:620) - File saved
+2020-01-21 17:56:33,621  INFO (main:com.insight.accelerators.TestEngineWeb:afterMethod:407) - After method executing...
+2020-01-21 17:56:33,621  INFO (main:com.insight.report.CReporterWeb:closeDetailedReport:1381) - ===========================Close Detailed Report =======Start=======
+2020-01-21 17:56:33,622  INFO (main:com.insight.report.CReporterWeb:closeDetailedReport:1452) - ===========================Close Detailed Report =======End=======
+2020-01-21 17:56:33,623  INFO (main:com.insight.report.ReportXML:writeTestCaseResultToXML:220) - test case name : TEJA_TEST-0-
+2020-01-21 17:56:33,623  INFO (main:com.insight.accelerators.TestEngineWeb:afterMethod:422) - The value of the path is C:\InsightMaster\insightUFTMigration\TestData\TestData.xlsx
+2020-01-21 17:56:33,623  INFO (main:com.insight.accelerators.TestEngineWeb:afterMethod:423) - The value of test case descriptionnull
+2020-01-21 17:56:33,623  INFO (main:com.insight.accelerators.TestEngineWeb:afterMethod:424) - Test Execution Status, Test Passed ?false
+2020-01-21 17:56:33,976  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:514) - --------------------------------------------------------------------------
+2020-01-21 17:56:33,976  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:515) - ------------------Suite :: Regression------------------------------
+2020-01-21 17:56:33,976  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:516) - AfterSuite Start Time :: 1579609593976
+2020-01-21 17:56:33,976  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:517) - ---------------------------End After Suite Details-----------------------------------
+2020-01-21 17:56:33,976  INFO (main:com.insight.report.ReportXML:listAllFiles:883) - in listAllFiles method 
+2020-01-21 17:56:33,977  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : HTMLReports
+2020-01-21 17:56:33,977  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : ISummaryReport.html
+2020-01-21 17:56:33,977  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : Logos
+2020-01-21 17:56:33,977  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : TEJA_TEST.xml
+2020-01-21 17:56:33,977  INFO (main:com.insight.report.ReportXML:createXMLForSummaryReport:861) - summary file newly created
+2020-01-21 17:56:33,978  INFO (main:com.insight.report.ConfigFileReadWrite:read:146) - fileName = resources/cignitiReporter.properties
+2020-01-21 17:56:33,978  INFO (main:com.insight.report.ConfigFileReadWrite:read:147) - key = insightWebURL
+2020-01-21 17:56:33,978  INFO (main:com.insight.report.ReportXML:updateXMLForSummary:652) - inside method: updateXMLForSummary
+2020-01-21 17:56:33,983  INFO (main:com.insight.report.ReportXML:updateXMLForSummary:679) - root node name : TestCaseDetails
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:883) - in listAllFiles method 
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : HTMLReports
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : ISummaryReport.html
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : Logos
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : SummaryResults.xml
+2020-01-21 17:56:33,985  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : TEJA_TEST.xml
+2020-01-21 17:56:33,986  INFO (main:com.insight.report.ReportXML:listAllFiles:883) - in listAllFiles method 
+2020-01-21 17:56:33,986  INFO (main:com.insight.report.ReportXML:listAllFiles:888) - file name : screenshots
+2020-01-21 17:56:34,202  INFO (main:com.insight.report.ReportXML:convertXMLToHTML:449) - converted all xml files to html files
+2020-01-21 17:56:34,204  INFO (main:com.insight.report.CReporterWeb:createHtmlSummaryReport:696) - Key of mapEntry1 : com.insight.WebTest.SEWP:TEJA_TEST-0-
+2020-01-21 17:56:34,204  INFO (main:com.insight.report.CReporterWeb:createHtmlSummaryReport:703) - package is present in package_testname[0] : com.insight.WebTest.SEWP
+2020-01-21 17:56:34,204  INFO (main:com.insight.report.CReporterWeb:createHtmlSummaryReport:705) - test method is present in package_testname[1] : TEJA_TEST-0-
+2020-01-21 17:56:34,204  INFO (main:com.insight.report.CReporterWeb:createHtmlSummaryReport:709) - value against package_testname is : PASS
+2020-01-21 17:56:34,204  INFO (main:com.insight.report.CReporterWeb:closeSummaryReport:1461) - ===========================Close Summary Report =======Start=======
+2020-01-21 17:56:34,205  INFO (main:com.insight.report.CReporterWeb:closeSummaryReport:1502) - ===========================Close Summary Report =======End=======
+2020-01-21 17:56:34,206  INFO (main:com.insight.report.ReportXML:copyCompleteFolderForAjaxReporting:976) - Exception dirSource 'resources\ISummaryReport.html' exists but is not a directory
+2020-01-21 17:56:34,206  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:527) - After Suite end time ==============>21_Jan_2020_05_56_34_206
+2020-01-21 17:56:34,206  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:528) - Before killing chrome browser
+2020-01-21 17:56:34,206  INFO (main:com.insight.accelerators.TestEngineWeb:afterSuite:529) - After killing chrome browser

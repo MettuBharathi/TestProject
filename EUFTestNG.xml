@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='INSIGHT Automation test suite'>
+
+    <parameter name="suiteExecuted" value="Regression" />
+    <parameter name="executionType" value="Sequential" />
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+       
+    </listeners>
+ <test name="EUF08" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF08_FCTWebEndDisplayIPSContractsTest">
+	    <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			<test name="EUF09" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF09_FCTWebEndDisplayMyContactNotificationsTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			<test name="EUF10" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF10_FCTWebEndUserForgotUserNameTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			<test name="EUF11" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF11_FCTWebEndUserHeadintheCloudsTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			<test name="EUF12" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF12_FCTWebEndUserIPSTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			<test name="EUF14" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF14_FCTWebEndUserPartnerProgramCEPPTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			
+			<test name="EUF15" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF15_FCTWebPasswordExpiredTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			
+			<test name="EUF17" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF17_FCTWebSelectSoldToTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+			
+			<test name="EUF19" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.EUF.EUF19_FavoriteLinksTest">
+			<parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+            </class>
+        </classes>
+    </test>
+			
+</suite>

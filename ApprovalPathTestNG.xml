@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name='INSIGHT Automation test suite'>
+
+    <parameter name="suiteExecuted" value="Regression" />
+    <parameter name="executionType" value="Sequential" />
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+       
+    </listeners>
+    <test name="APP01" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APP01_CreateApprovalPathTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+        <test name="APP02" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APP02_DeleteApprovalPathTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+        <test name="APP03" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APP03_DeleteMemberTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+          <test name="APP04" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APP04_SearchTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+          <test name="APR01" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR01_ApprovalPathTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+          <test name="APR02" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR02_ApproverOutTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+          <test name="APR03" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR03_RejectionsListTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+  
+          <test name="APR04" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR04_GroupRulesTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+     <test name="APR05" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR05_GroupUsersTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+     <test name="APR06" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.ApprovalPath.APR06_RequisitionStatusTest">           
+                <methods>              
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>                                 
+                </methods>
+            </class>
+        </classes>        
+    </test>
+</suite>

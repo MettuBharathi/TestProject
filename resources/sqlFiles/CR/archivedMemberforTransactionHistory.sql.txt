@@ -1,0 +1,13 @@
+SELECT
+    TO_CHAR(archCall.sc_dt, 'DD-MM-YYYY') AS callDate,
+    archCall.sc_id AS callId,
+    archCall.comm_ctr_id AS commCenter,
+    archCall.call_source AS callSource,
+    archCall.dtl_prob1_cd AS pacesetter1,
+    archCall.dtl_sts_rsn_cd AS resolutionCode,
+'12473813' AS memberId
+FROM tokyo_ers_hist.arch_call archCall
+WHERE archCall.sc_dt > TO_DATE('01-MAY-2018')
+                AND archCall.sc_call_clb_cd = (SELECT mbr.clb_cd FROM tokyo_inq.memberx mbr WHERE mbr.mbr_id_16 = '4299811247381315' AND ROWNUM=1) 
+                AND archCall.sc_call_mbr_id = (SELECT mbr.mbr_id FROM tokyo_inq.memberx mbr WHERE mbr.mbr_id_16 = '4299811247381315' AND ROWNUM=1)
+ORDER BY archCall.sc_dt DESC, archCall.sc_id DESC

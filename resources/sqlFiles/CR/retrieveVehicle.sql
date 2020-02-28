@@ -1,0 +1,1 @@
+select YEAR_ID, MAKE_NAME, MODEL_NAME, VEHICLE_TYPE_NAME from TOKYO_CAD.ACES_VEHICLE_DEF where rownum < 2000 ORDER BY dbms_random.value

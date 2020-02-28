@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SER03"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="128.687">
+  <properties />
+  
+  
+            <testcase name="TC_USM09" time="128.687" classname="com.insight.WebTest.UserManag.USM09_SimplifiedAccountCreationTest" />
+      
+</testsuite>

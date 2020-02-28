@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='INSIGHT Automation test suite'>
+
+    <parameter name="suiteExecuted" value="Regression" />
+    <parameter name="executionType" value="Sequential" />
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+       
+    </listeners>
+<test name="CRT01" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT01_CartBasicTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT02" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT02_CartBasicIPSTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT03" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT03_CartExportTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT04" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT04_CartPrintFriendlyTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT05" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT05_QuickSearchTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT06" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT06_QuickSearchIPSTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT07" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT07_SaveCartTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT08" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT08_SaveCartIPSTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT09" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT09_SendToColleagueTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT10" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT10_SendToColleagueIPSTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+
+<test name="CRT11" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT11_ShippingEstimatorTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT12" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT12_TopNavTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT13" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT13_DeleteCartItemsTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT16" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT16_RequestorOptionsTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT17" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT17_SaveCartLineLevelTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT18" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT18_SaveCartShipBillPayTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT22" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT22_CartInventoryTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT23" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT23_LoginFromCartPricingTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT24" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT24_WebGuidedPurchaseTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CRT25" preserve-order='true'>
+   <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Cart.CRT25_QuickCheckOutTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+</suite>

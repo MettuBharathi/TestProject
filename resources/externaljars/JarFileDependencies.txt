@@ -1,0 +1,5 @@
+Required: Use the .jar or .sh files to install the jar files into your Maven local repository.
+Once this is done, you will be able to run the encryption pieces at any point in time.  Within Eclipse, 
+these jars should automatically be pulled into the IDE.
+The dependencies have been added to the POM file allowing the project to know that it's in place and ready
+to run.

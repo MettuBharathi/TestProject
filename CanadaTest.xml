@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name='INSIGHT Automation test suite'>
+    <parameter name="suiteExecuted" value="Regression" />
+    <parameter name="executionType" value="Sequential" />
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+   <test name="CAN01" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN01_ShipBillPayTaxTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+   <test name="CAN02" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN02_ShipBillPayEWRFeeTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+    <test name="CAN03" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            <class name="com.insight.WebTest.Canada.CAN03_KeywordSearchTest">
+                <methods>
+s                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>
+                </methods>
+                </class>
+        </classes>  
+    </test> 
+   <test name="CAN04" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN04_ShipBillPayFreightTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+   <test name="CAN05" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN05_MenuSearchTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+    <test name="CAN07" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN07_CartBasicTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+     <test name="CAN08" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            
+                <class name="com.insight.WebTest.Canada.CAN08_ConverQuoteBundlesTest">
+                <methods>
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>
+                </methods></class>
+        </classes>      
+    </test>
+     <test name="CAN09" preserve-order='true'>
+     <parameter name="automationName" value="selenium"></parameter>
+      <parameter name="browser" value="chrome"></parameter>
+       <parameter name="browserVersion" value="NA"></parameter> 
+       <parameter name="environment" value="local"></parameter>   
+      <parameter name="platformName" value="windows 10"></parameter>
+       <parameter name="autoStart" value="web"></parameter>
+      <parameter name="seleniumurl" value="local"></parameter>      
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserVersion" value="76.0"></parameter>
+        <parameter name="seleniumurl" value="local"></parameter>
+         <parameter name="executionType" value="Sequential"></parameter>
+        <classes>
+            
+                <class name="com.insight.WebTest.Canada.CAN09_SPLASearchTest">
+                <methods>
+                    <parameter name="nextTestJoin" value="false"></parameter>
+                    <parameter name="StartRow" value="1"></parameter>
+                    <parameter name="EndRow" value="null"></parameter>
+                </methods></class>
+        </classes>      
+    </test>
+    <test name="CAN10" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN10_SPLAZeroUsageTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+    <test name="CAN11" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN11_SLPProrationMicrosoftTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+    <test name="CAN12" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN12_AdHocReportDefaultSettingsTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+    <test name="CAN13" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN13_CartBundlesTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CAN14" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN14_NoDiscoverCardTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CAN15" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN15_OrderHistoryTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CAN16" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN16_InvoiceHistoryClassTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CAN17" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN17_ShippingPricesLtdandStdUserTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+<test name="CAN18" preserve-order='true'>
+    <parameter name="automationName" value="selenium"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browserVersion" value="NA"></parameter>
+    <parameter name="environment" value="local"></parameter>
+    <parameter name="platformName" value="windows 10"></parameter>
+    <parameter name="autoStart" value="web"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="74.0"></parameter>
+    <parameter name="seleniumurl" value="local"></parameter>
+    <parameter name="executionType" value="Sequential"></parameter>
+    <classes>
+        <class name="com.insight.WebTest.Canada.CAN18_SearchIncludingFrenchTest">
+            <parameter name="nextTestJoin" value="false"></parameter>
+            <parameter name="StartRow" value="1"></parameter>
+            <parameter name="EndRow" value="null"></parameter>
+        </class>
+    </classes>
+</test>
+</suite>
+
+
+

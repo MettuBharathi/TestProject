@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [INSIGHT Automation test suite]">
+  <parameter name="environment" value="local"/>
+  <parameter name="suiteExecuted" value="Regression"/>
+  <parameter name="executionType" value="Sequential"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="76.0"/>
+  <parameter name="automationName" value="selenium"/>
+  <parameter name="seleniumurl" value="local"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="platformName" value="windows 10"/>
+  <parameter name="autoStart" value="web"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="WebApplication(failed)">
+    <parameter name="environment" value="local"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="76.0"/>
+    <parameter name="executionType" value="Sequential"/>
+    <parameter name="automationName" value="selenium"/>
+    <parameter name="seleniumurl" value="local"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="platformName" value="windows 10"/>
+    <parameter name="autoStart" value="web"/>
+    <classes>
+      <class name="com.insight.WebTest.SEWP.TejaTest">
+        <parameter name="EndRow" value="null"/>
+        <parameter name="nextTestJoin" value="false"/>
+        <parameter name="StartRow" value="1"/>
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="TEJA_TEST" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.insight.WebTest.SEWP.TejaTest -->
+    </classes>
+  </test> <!-- WebApplication(failed) -->
+</suite> <!-- Failed suite [INSIGHT Automation test suite] -->

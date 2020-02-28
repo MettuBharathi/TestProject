@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WebApplication"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="124.477">
+  <properties />
+  
+  
+            <testcase name="TC_USM08" time="124.477" classname="com.insight.WebTest.UserManag.USM08_FCTWebUserSoldToLinkingTest" />
+      
+</testsuite>
