@@ -39,7 +39,7 @@
 		
 		<jxl.version>2.6.12</jxl.version>
 		<javax.mail.version>1.4.6</javax.mail.version>
-		<jsoup.version>1.8.2</jsoup.version>
+		<jsoup.version>1.15.3</jsoup.version>
 		
 		<xmlbeans.version>2.5.0</xmlbeans.version>
 		<xml-apis.version>1.4.01</xml-apis.version>
